@@ -1,0 +1,10 @@
+addons:
+    apt:
+        packages:
+            - cmake 
+            - build-essential
+language: cpp
+compiler: gcc
+script:
+    - cmake .
+    - make
