@@ -16,8 +16,8 @@ install:
     - wget https://github.com/opencv/opencv/archive/4.1.0.zip
     - wget https://github.com/opencv/opencv_contrib/archive/4.1.0.zip
     # Unzip source
-    - unzip opencv.zip
-    - unzip opencv_contrib.zip
+    - unzip opencv-4.1.0.zip
+    - unzip opencv_contrib-4.1.0.zip
     # Rename folder
     - mv opencv-4.1.0 opencv
     - mv opencv_contrib-4.1.0 opencv_contrib
